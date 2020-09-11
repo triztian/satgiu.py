@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "satgiu.py"
+version = "0.1.0"
+description = "A package to produce PDFs and compress images for acceptance by the SAT (Mexican Customs) GIU"
+authors = ["Tristian Azuara <tristian.azuara@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Pillow = "^7.2"
+PyPDF2 = "^1.0.1"
+reportlab = "^3.5.49"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+virtualenv = "^20.0.31"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
